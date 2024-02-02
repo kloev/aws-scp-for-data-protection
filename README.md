@@ -1,1 +1,22 @@
-# aws-scp-for-data-protection
+# Service Control Policies for Data Protection in AWS
+This repository aims to give recommendations for AWS SCP that help protect your data in your AWS Organization. 
+
+## DenyAllOutsideEUFrankfurt
+This policy denies all listed services to be deployed outside of eu-central-1. This is eesential for being conform with the german GDPR. 
+
+## SCPforOULeavingOrgProtection
+Denies users to leave the organization. 
+
+## DenyUsersToStopCloudtrail
+Denies users to stop cloudtrail logging. 
+
+## NoAWSAccess
+Only use this rule for suspended accounts.
+
+## DenyConfigRuleChanges
+Config Rules are essential to monitor your security best practices. 
+
+## Sources
+[AWS Blog Post: Codify your best practices using service control policies](https://aws.amazon.com/de/blogs/mt/codify-your-best-practices-using-service-control-policies-part-2/)
+
+[Medium article: AWS Governance — Service Control Policies](https://medium.com/@seshu/aws-governance-service-control-policies-6d23b144ec72)
