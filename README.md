@@ -14,7 +14,10 @@ Denies users to stop cloudtrail logging.
 Only use this rule for suspended accounts.
 
 ## DenyConfigRuleChanges
-Config Rules are essential to monitor your security best practices. 
+Denies User to change config rules. Config Rules are essential to monitor your security best practices. 
+
+## DenyForbiddenServices
+Use this rule for OUs and its children that are not allowed to access specific services. Define the policy based on your own compliance rules. 
 
 ## Sources
 [AWS Blog Post: Codify your best practices using service control policies](https://aws.amazon.com/de/blogs/mt/codify-your-best-practices-using-service-control-policies-part-2/)
