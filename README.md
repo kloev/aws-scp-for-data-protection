@@ -19,7 +19,14 @@ Denies User to change config rules. Config Rules are essential to monitor your s
 ## DenyForbiddenServices
 Use this rule for OUs and its children that are not allowed to access specific services. Define the policy based on your own compliance rules. 
 
+## PreventS3FromUnencryptedUpload
+
+
+## S3EnforceSpecificEncryption
+
 ## Sources
 [AWS Blog Post: Codify your best practices using service control policies](https://aws.amazon.com/de/blogs/mt/codify-your-best-practices-using-service-control-policies-part-2/)
 
 [Medium article: AWS Governance — Service Control Policies](https://medium.com/@seshu/aws-governance-service-control-policies-6d23b144ec72)
+
+[AWS Organizations User Guide: SCP examples]{https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html}
