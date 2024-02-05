@@ -29,4 +29,4 @@ Use this rule for OUs and its children that are not allowed to access specific s
 
 [Medium article: AWS Governance — Service Control Policies](https://medium.com/@seshu/aws-governance-service-control-policies-6d23b144ec72)
 
-[AWS Organizations User Guide: SCP examples]{https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html}
+[AWS Organizations User Guide: SCP examples](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_examples.html)
