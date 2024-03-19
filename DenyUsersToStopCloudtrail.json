@@ -3,7 +3,7 @@
   "Statement": [
     {
       "Sid": "DenyUsersToStopCloudtrail",
-      "Effect": "Allow",
+      "Effect": "Deny",
       "Action": [
         "cloudtrail:StopLogging",
         "cloudtrail:DeleteTrail",
